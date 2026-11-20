@@ -8,7 +8,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-ipa:
-    runs-on: macos-latest
+    runs-on: macos-15-intel
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
