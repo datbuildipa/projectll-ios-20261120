@@ -1,0 +1,3 @@
+rootProject.name = 'LangLaDesktop'
+include ':core'
+project(':core').projectDir = file('../core')
